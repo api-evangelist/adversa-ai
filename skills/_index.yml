@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/adversa-ai/secureclaw/blob/main/secureclaw/skill/SKILL.md
+skills:
+- file: adversa-ai-secureclaw.md
+  name: SecureClaw
+  description: >-
+    Provider-published Agent Skill for securing OpenClaw/Moltbot/Clawdbot agents.
+    15 core security rules plus automated audit/harden/scan/response scripts,
+    aligned to OWASP ASI Top 10, MITRE ATLAS, CoSAI, CSA MAESTRO, and NIST AI 100-2.
+  package: '@adversa/secureclaw'
+  version: 2.2.0
+  license: MIT
+  frameworks:
+  - OWASP ASI Top 10 (2025)
+  - MITRE ATLAS
+  - CoSAI Principles
+  - CSA MAESTRO
+  - NIST AI 100-2 E2025

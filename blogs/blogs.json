@@ -1,0 +1,14 @@
+{
+  "repo": "adversa-ai",
+  "feeds": [
+    {
+      "source": "https://adversa.ai",
+      "feed_url": "https://adversa.ai/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-20T13:31:34Z"
+}

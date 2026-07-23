@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.npmjs.com/package/@adversa/secureclaw
+packages:
+- language: javascript
+  registry: npm
+  name: '@adversa/secureclaw'
+  version: 2.2.0
+  url: https://www.npmjs.com/package/@adversa/secureclaw
+  repository: https://github.com/adversa-ai/secureclaw
+  install: npm install @adversa/secureclaw
+  license: MIT
+  official: true
+  description: >-
+    Automated security hardening plugin and skill for OpenClaw agents.
+    56 audit checks across 8 categories, 5 hardening modules, and 3 background
+    monitors, aligned to OWASP ASI Top 10, MITRE ATLAS, CoSAI, CSA MAESTRO,
+    and NIST AI 100-2.
+notes: >-
+  The unscoped npm package "secureclaw" is published by a different vendor
+  (Buguard Security) and is NOT first-party to Adversa AI. The first-party
+  package is the scoped "@adversa/secureclaw" (author: Adversa AI). No PyPI,
+  Maven Central, NuGet, RubyGems, Packagist, or crates.io packages were found.

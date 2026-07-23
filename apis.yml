@@ -1,8 +1,29 @@
 aid: adversa-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adversa-ai.png
 name: Adversa AI
-description: 'Adversa AI is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai-security. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Adversa AI is an autonomous AI red-teaming and security company (founded 2021,
+  Tel Aviv) that provides continuous security assessment for AI agents, LLMs, and
+  GenAI applications. Its platform runs 300+ attack techniques — jailbreaks,
+  prompt injection, and adversarial attacks — is OWASP- and NIST-mapped, runs
+  its detection models on-prem so customer data is never exposed to external AI
+  providers, and prioritizes every finding by real business impact with
+  auto-generated remediation. Offerings include AI Threat Modelling, Continuous
+  Security Assessment, Hardening & Remediation, and the AI Risk Quadrant (AIRQ)
+  scoring framework. Adversa AI experts are co-leads and core members of
+  NIST AI RMF, OWASP ASI, CoSAI, and CSA AI initiatives, and the company ships
+  the open-source SecureClaw plugin/skill for hardening OpenClaw agents.
 url: https://raw.githubusercontent.com/api-evangelist/adversa-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +37,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Ai Security
+- AI Red Teaming
+- LLM Security
+- Agentic AI
+- Adversarial Machine Learning
+- AI Governance
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,38 @@ maintainers:
 common:
 - type: Website
   url: https://adversa.ai
+- type: Blog
+  url: https://adversa.ai/topic/trusted-ai-blog/
+- type: SignUp
+  url: https://adversa.ai/get-demo/
+- type: PrivacyPolicy
+  url: https://adversa.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/adversa-ai
+- type: TrustCenter
+  url: https://adversa.ai/security-trust/
+- type: Compliance
+  url: https://adversa.ai/security-trust/
+- type: Packages
+  url: packages/adversa-ai-packages.yml
+- type: CLI
+  url: cli/adversa-ai-cli.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/adversa-ai-llms.txt
+- type: WellKnown
+  url: well-known/adversa-ai-well-known.yml
+- type: DomainSecurity
+  url: security/adversa-ai-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/adversa-ai-vulnerability-disclosure.yml
+- type: Security
+  url: security/adversa-ai-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/adversa-ai-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

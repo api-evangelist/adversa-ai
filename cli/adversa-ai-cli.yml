@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/adversa-ai/secureclaw
+name: secureclaw
+description: >-
+  First-party CLI surface of the SecureClaw OpenClaw plugin (@adversa/secureclaw).
+  Invoked via the OpenClaw agent runtime; also ships a standalone bash skill.
+package: '@adversa/secureclaw'
+install:
+- npm install @adversa/secureclaw
+- npx openclaw plugins install -l node_modules/@adversa/secureclaw
+- bash secureclaw/skill/scripts/install.sh   # standalone skill
+requires:
+  node: '>=18'
+  agents: [openclaw, moltbot, clawdbot]
+  minVersion: 2026.1.0
+commands:
+- command: npx openclaw secureclaw audit
+  summary: Run the security audit (56 checks across 8 categories).
+- command: npx openclaw secureclaw harden
+  summary: Apply hardening modules with backup/rollback.
+- command: npx openclaw secureclaw emergency
+  summary: Run emergency incident response.
+standalone_scripts:
+- quick-audit.sh
+- quick-harden.sh
+- scan-skills.sh
+- check-advisories.sh
+- check-integrity.sh
+- check-privacy.sh
+- emergency-response.sh
+- install.sh
+- uninstall.sh
