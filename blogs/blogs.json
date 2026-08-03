@@ -2,13 +2,27 @@
   "repo": "adversa-ai",
   "feeds": [
     {
-      "source": "https://adversa.ai",
+      "source": "https://adversa.ai/feed/",
       "feed_url": "https://adversa.ai/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://adversa.ai/rss.xml",
+      "feed_url": "https://adversa.ai/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://adversa.ai",
+      "feed_url": "https://adversa.ai/rss.xml",
+      "title": "",
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 53,
+  "fetched": "2026-08-01T15:49:00Z"
 }
