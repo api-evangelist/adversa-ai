@@ -80,9 +80,9 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Adversa Ai Domain Security](https://apis.io/security/adversa-ai/adversa-ai-domain-security/)
-- [Adversa Ai Trust Center](https://apis.io/security/adversa-ai/adversa-ai-trust-center/)
-- [Adversa Ai Vulnerability Disclosure](https://apis.io/security/adversa-ai/adversa-ai-vulnerability-disclosure/)
+- [Adversa AI Domain Security](https://apis.io/security/adversa-ai/adversa-ai-domain-security/)
+- [Adversa AI Trust Center](https://apis.io/security/adversa-ai/adversa-ai-trust-center/)
+- [Adversa AI Vulnerability Disclosure](https://apis.io/security/adversa-ai/adversa-ai-vulnerability-disclosure/)
 
 ## Where to find this API
 
@@ -98,18 +98,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 22.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 21.7** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 55.4 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
-| Operational transparency | 13.2 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 16.7 |
-| Access clarity | 39.5 |
+| Access clarity | 36.2 |
 
-**Agent readiness 3.6** — human-only
+**Agent readiness 3.5** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -132,6 +132,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
 
